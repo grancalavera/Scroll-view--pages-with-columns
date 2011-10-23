@@ -20,6 +20,7 @@
 		91830C0E1452CAB2005585DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91830BEF1452CAB1005585DF /* Foundation.framework */; };
 		91830C161452CAB2005585DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91830C141452CAB2005585DF /* InfoPlist.strings */; };
 		91830C191452CAB2005585DF /* ScrollViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91830C181452CAB2005585DF /* ScrollViewExampleTests.m */; };
+		91830C231452CB2F005585DF /* chaconi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91830C221452CB2F005585DF /* chaconi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		91830BED1452CAB1005585DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91830BEF1452CAB1005585DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91830BF11452CAB1005585DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		91830BF51452CAB2005585DF /* ScrollViewExample-Info.plist */ = {isa = PBXFileReference; path = "ScrollViewExample-Info.plist"; sourceTree = "<group>"; };
+		91830BF51452CAB2005585DF /* ScrollViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewExample-Info.plist"; sourceTree = "<group>"; };
 		91830BF71452CAB2005585DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91830BF91452CAB2005585DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91830BFB1452CAB2005585DF /* ScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
-		91830BFC1452CAB2005585DF /* EGCAppDelegate.h */ = {isa = PBXFileReference; path = EGCAppDelegate.h; sourceTree = "<group>"; };
+		91830BFB1452CAB2005585DF /* ScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		91830BFC1452CAB2005585DF /* EGCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGCAppDelegate.h; sourceTree = "<group>"; };
 		91830BFD1452CAB2005585DF /* EGCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGCAppDelegate.m; sourceTree = "<group>"; };
-		91830BFF1452CAB2005585DF /* EGCViewController.h */ = {isa = PBXFileReference; path = EGCViewController.h; sourceTree = "<group>"; };
+		91830BFF1452CAB2005585DF /* EGCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGCViewController.h; sourceTree = "<group>"; };
 		91830C001452CAB2005585DF /* EGCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGCViewController.m; sourceTree = "<group>"; };
 		91830C031452CAB2005585DF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EGCViewController.xib; sourceTree = "<group>"; };
 		91830C0A1452CAB2005585DF /* ScrollViewExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91830C0B1452CAB2005585DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		91830C131452CAB2005585DF /* ScrollViewExampleTests-Info.plist */ = {isa = PBXFileReference; path = "ScrollViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		91830C131452CAB2005585DF /* ScrollViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		91830C151452CAB2005585DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		91830C171452CAB2005585DF /* ScrollViewExampleTests.h */ = {isa = PBXFileReference; path = ScrollViewExampleTests.h; sourceTree = "<group>"; };
+		91830C171452CAB2005585DF /* ScrollViewExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewExampleTests.h; sourceTree = "<group>"; };
 		91830C181452CAB2005585DF /* ScrollViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewExampleTests.m; sourceTree = "<group>"; };
+		91830C221452CB2F005585DF /* chaconi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chaconi.jpg; path = ../../../../Pictures/20111003/chaconi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		91830BF31452CAB1005585DF /* ScrollViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				91830C221452CB2F005585DF /* chaconi.jpg */,
 				91830BFC1452CAB2005585DF /* EGCAppDelegate.h */,
 				91830BFD1452CAB2005585DF /* EGCAppDelegate.m */,
 				91830BFF1452CAB2005585DF /* EGCViewController.h */,
@@ -224,6 +227,7 @@
 			files = (
 				91830BF81452CAB2005585DF /* InfoPlist.strings in Resources */,
 				91830C041452CAB2005585DF /* EGCViewController.xib in Resources */,
+				91830C231452CB2F005585DF /* chaconi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +436,7 @@
 				91830C1E1452CAB2005585DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91830C1F1452CAB2005585DF /* Build configuration list for PBXNativeTarget "ScrollViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				91830C211452CAB2005585DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
